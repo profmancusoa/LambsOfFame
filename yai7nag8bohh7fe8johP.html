@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=0.9" />
+		
+		<link href="./_app/immutable/assets/0.BHri3Yzr.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/3.DHfVYtrK.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.D0XQS4uo.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.DzPjL44A.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.B_icLcTO.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DMcsCHrM.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.D6kgxu3v.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CmRns2Hh.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.7ddDs0f7.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/3.RjWa3aVv.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.esm2017.Brs9dJ83.js">
+		<link rel="manifest" href="/manifest.json">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <main class="svelte-x9dq0"><dialog id="modale" class="svelte-x9dq0"><button id="modale_button" autofocus class="svelte-x9dq0" data-svelte-h="svelte-1pzhqwz">Close</button> <p data-svelte-h="svelte-19ilara">OK, operazione conclusa correttamente!!!</p></dialog> <div class="classi svelte-x9dq0"><div class="etichetta svelte-x9dq0" data-svelte-h="svelte-1lomfd3">Seleziona una Classe</div> <div class="classe unselected svelte-x9dq0">3 INFO</div> <div class="classe unselected svelte-x9dq0">4 INFO</div> <div class="classe unselected svelte-x9dq0">5 INFO</div></div> <div class="materie svelte-x9dq0"><div class="etichetta svelte-x9dq0" data-svelte-h="svelte-1hy1xpb">Seleziona una Materia</div> <div class="materia unselected svelte-x9dq0">TPSI</div> <div class="materia unselected svelte-x9dq0">RETI</div></div>  <div class="tabella svelte-x9dq0"><table class="table-auto w-full"><thead class="text-xs font-semibold uppercase text-gray-400 bg-gray-50" data-svelte-h="svelte-yayuia"><tr><th class="p-2 whitespace-nowrap"><div class="font-semibold text-left">Studente</div></th> <th class="p-2 whitespace-nowrap"><div class="font-semibold text-left">Materia</div></th> <th class="p-2 whitespace-nowrap"><div class="font-semibold text-left">Punti</div></th> <th class="p-2 whitespace-nowrap"><div class="font-semibold text-center">Commento</div></th></tr></thead> <tbody class="text-sm divide-y divide-gray-200"><tr><td class="p-2 whitespace-nowrap"><div class="flex items-center"><div class="w-10 h-10 flex-shrink-0 mr-2 sm:mr-3"></div> <div class="font-medium text-gray-800" data-svelte-h="svelte-1s9bbg4">TUTTI</div></div></td> <td class="p-2 whitespace-nowrap"><div class="text-left">NONE</div></td> <td class="p-2 whitespace-nowrap"><div class="text-left font-medium text-green-500"><input id="tutti_punti" type="number" placeholder="0" disabled class="svelte-x9dq0" value="0"></div></td> <td class="p-2 whitespace-nowrap"><div class="text-lg text-center"><input id="tutti_commento" type="text" placeholder="" disabled class="svelte-x9dq0" value=""></div></td></tr> </tbody></table></div> </main> 
+			
+			<script>
+				{
+					__sveltekit_18zvidu = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [{"type":"data","data":null,"uses":{}},null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.D0XQS4uo.js"),
+						import("./_app/immutable/entry/app.DMcsCHrM.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('./service-worker.js');
+						});
+					}
+				}
+			</script>
+		</div>
+	</body>
+</html>
